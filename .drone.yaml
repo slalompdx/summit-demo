@@ -1,0 +1,6 @@
+build:
+  image: 1adam12/centos:latest
+  pull: true
+  commands:
+    - bundle install
+    - bundle exec rake unit
